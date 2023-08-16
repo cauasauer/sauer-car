@@ -1,5 +1,5 @@
 header {
-	background: #BBBBBB;
+	background: #000000;
 	padding: 20px 0;
 }
 
@@ -24,14 +24,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #002fff;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #ff009d;
 	text-decoration: underline;
 }
 
@@ -54,11 +54,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	border-color: #ff0077;
 }
 
 .produtos li:active {
-	border-color: #088C19;	
+	border-color: #ff6600;	
 }
 
 .produtos li:hover h2 {
@@ -87,7 +87,7 @@ footer {
 }
 
 .copyright {
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 13px;
 	margin: 20px 0 0;
 }
