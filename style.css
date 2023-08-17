@@ -46,3 +46,44 @@ ul {
 .imagembeneficios {
 	width: 50%;
 }
+ .mapa{
+	display: flex;
+justify-content: center; 
+}
+
+ .video{
+	display: flex;
+	justify-content: center; 
+ }
+
+ .caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	display: flex;
+}
+
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #002fff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ff009d;
+	text-decoration: underline;
+}
